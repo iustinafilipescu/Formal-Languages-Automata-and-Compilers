@@ -1,0 +1,61 @@
+class complex
+{
+  public:
+    var int q;
+  privat:
+    var int w;
+
+  maxim (int i, int j) -> int
+  {
+    if ( i mare j) then
+    {
+      return i;
+    }
+    else
+    {
+      return j;
+    };
+  };
+};
+
+minim (int x, int y) -> int
+{
+  if ( x mic y) then
+  {
+    return x;
+  };
+  return y;
+};
+
+var int a -> 3;
+var int b -> 4;
+var float s;
+var char l;
+var float vec[20];
+var float o -> 3.0;
+var float r;
+var string aux;
+const float c -> 4.5;
+
+main
+begin
+a -> b * 3;
+b -> a + 20;
+b -> maxim(a, b);
+aux -> 'abc';
+
+for (a -> 3, a mic b, a -> a + 1)
+{
+  vec[a] -> 1;
+};
+
+r -> 9.2;
+l -> 'o';
+
+while (a egal b and b mic r) do
+{
+  b -> b + 1;
+  a -> a - 1;
+};
+
+end
